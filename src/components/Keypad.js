@@ -2,7 +2,9 @@
 
 function Keypad (){
     return (
-        <div></div>
+        <div>
+            <input type="password" placeholder="Put your weak passowrd here" onChange={() => { console.log('Entering password...')}}/>
+        </div>
     )
 }
 
